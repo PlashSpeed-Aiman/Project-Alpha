@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <com.google.android.material.appbar.AppBarLayout
+            android:id="@+id/appBar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#1DE9B6"
+            android:theme="@style/ThemeOverlay.AppCompat.ActionBar">
+
+            <!-- Toolbar is the actual app bar with text and the action items -->
+
+
+            <Spinner
+                android:id="@+id/spinner"
+                android:layout_width="204dp"
+                android:layout_height="53dp"
+                android:layout_marginStart="3dp"
+                android:layout_marginEnd="16dp"
+                android:layout_toEndOf="@+id/imageView"
+                android:entries="@array/year_list" />
+
+
+        </com.google.android.material.appbar.AppBarLayout>
+
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/main_frame"/>
+
+
+
+</LinearLayout>
