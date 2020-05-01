@@ -6,17 +6,60 @@
     android:layout_height="match_parent"
     tools:context=".SubjectActivity">
 
-    <androidx.cardview.widget.CardView
-        android:layout_width="match_parent"
-        android:layout_height="374dp"
-        android:layout_gravity="center_vertical"
-        app:cardElevation="4dp"
-        app:cardUseCompatPadding="true" />
-
     <View
         android:id="@+id/view"
         android:layout_width="wrap_content"
-        android:layout_height="373dp"
+        android:layout_height="398dp"
         android:background="@color/design_default_color_secondary" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_gravity="center_vertical"
+        app:cardElevation="4dp"
+        app:cardUseCompatPadding="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="403dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="36dp"
+                android:layout_marginStart="10sp"
+                android:layout_marginEnd="10sp"
+                android:text="TextView"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10sp"
+                android:layout_marginEnd="10sp"
+                android:text="TextView"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="158dp"
+                android:layout_marginStart="10sp"
+                android:layout_marginEnd="10sp"
+                android:text="@string/subjectDesc" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="382dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10sp"
+                android:layout_marginEnd="10sp"
+                android:text="TextView" />
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
 
 </FrameLayout>

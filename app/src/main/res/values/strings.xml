@@ -8,6 +8,8 @@
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="hello_blank_fragment2">Hello blank fragment2</string>
+    <string name="subjectDesc">General principles of statics,  force vectors, equilibrium, analysis of  trusses,  frames and machines,  forces2 and moments, friction, centroids and moment of inertia</string>
+    <string name="CourseSelect">Course List</string>
 
 
 </resources>
