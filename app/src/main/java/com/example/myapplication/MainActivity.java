@@ -30,6 +30,7 @@ public class MainActivity extends AppCompatActivity implements FirstYearFragment
         Spinner spinner = findViewById(R.id.spinner);
        final FirstYearFragment firstYearFragment = new FirstYearFragment();
        final SecondYearFragment secondYearFragment = new SecondYearFragment();
+       final Schedule schedule = new Schedule();
 
         spinner.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
             @Override
@@ -42,6 +43,9 @@ public class MainActivity extends AppCompatActivity implements FirstYearFragment
                     case 1:
                         setFragment(secondYearFragment);
                         setPageNumber(1);
+                        break;
+                    case 3:
+                        setFragment(schedule);
                         break;
                 }
             }
