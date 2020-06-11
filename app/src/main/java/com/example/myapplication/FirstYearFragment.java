@@ -24,6 +24,7 @@ public class FirstYearFragment extends ListFragment {
     static interface Listener {
         void itemClicked(long id);
     };
+
     private Listener listener;
 
     @Override

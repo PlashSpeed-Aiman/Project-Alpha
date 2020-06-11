@@ -24,8 +24,11 @@ public class Schedule extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        TextView subjectCode = getView().findViewById(R.id.textView6);
-        return inflater.inflate(R.layout.fragment_schedule, container, false);
+        View view = inflater.inflate(R.layout.fragment_schedule, container, false);
+        TextView subjectCode = view.findViewById(R.id.textView6);
+        return view;
+
+
 
     }
 }
