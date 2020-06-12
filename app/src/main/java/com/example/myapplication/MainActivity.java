@@ -1,18 +1,15 @@
 package com.example.myapplication;
 
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.appcompat.widget.Toolbar;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentTransaction;
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.AdapterView;
-import android.widget.ArrayAdapter;
-import android.widget.Button;
+
 import android.widget.Spinner;
-import android.widget.Toast;
+
 
 public class MainActivity extends AppCompatActivity implements FirstYearFragment.Listener {
 
